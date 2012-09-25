@@ -3,6 +3,7 @@ Ext.ux.data.proxy.PagingLocalStorage
 
 Paging localStorage proxy, allows using localStorage dataset with paging data view.
 
+https://github.com/AndersDJohnson/Ext.ux.data.proxy.PagingLocalStorage
 
 PagingLocalStorageProxy is a subclass of LocalStorage proxy that implements paging for a Store.
 Useful when Model count is larger than that amount wished to be displayed at once.
