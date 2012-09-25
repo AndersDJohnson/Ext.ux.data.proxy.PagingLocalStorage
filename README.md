@@ -4,24 +4,27 @@ Ext.ux.data.proxy.PagingLocalStorage
 Paging localStorage proxy, allows using localStorage dataset with paging data view.
 
 
-PagingLocalStorageProxy is a subclass of {@link Ext.data.proxy.LocalStorage LocalStorage} proxy
-that implements paging for a {@link Ext.data.Store Store}. Useful when {@link Ext.data.Model Model} count
-is larger than that amount wished to be displayed at once. Also provides the same interface as a paged
-{@link Ext.data.proxy.Server Server} proxy, allowing seamless offline caching.
+PagingLocalStorageProxy is a subclass of LocalStorage proxy that implements paging for a Store.
+Useful when Model count is larger than that amount wished to be displayed at once.
+Also provides the same interface as a paged Server proxy, allowing seamless offline caching.
 
 Based on code by Ed Spencer, see:
+
  - http://docs.sencha.com/touch/2-0/source/WebStorage.html#Ext-data-proxy-WebStorage
  - http://docs.sencha.com/ext-js/4-1/source/WebStorage.html#Ext-data-proxy-WebStorage
 
 Also inspired by:
- Ext.js 4-1's PagingMemoryProxy
-  - http://docs.sencha.com/ext-js/4-1/#!/api/Ext.ux.data.PagingMemoryProxy
-  - http://docs.sencha.com/ext-js/4-1/source/PagingMemoryProxy.html#Ext-ux-data-PagingMemoryProxy
- dmulcahey's LocalPagingProxy
-  - https://github.com/dmulcahey/LocalPagingProxy
-  - http://www.sencha.com/forum/showthread.php?192410-LocalPagingProxy-an-alternative-to-PagingMemoryProxy
- nohuhu's Ext.ux.data.proxy.PagingMemory
-  - https://github.com/nohuhu/Ext.ux.data.proxy.PagingMemory
+
+ - Ext.js 4-1's PagingMemoryProxy
+    - http://docs.sencha.com/ext-js/4-1/#!/api/Ext.ux.data.PagingMemoryProxy
+    - http://docs.sencha.com/ext-js/4-1/source/PagingMemoryProxy.html#Ext-ux-data-PagingMemoryProxy
+
+ - dmulcahey's LocalPagingProxy
+    - https://github.com/dmulcahey/LocalPagingProxy
+    - http://www.sencha.com/forum/showthread.php?192410-LocalPagingProxy-an-alternative-to-PagingMemoryProxy
+
+ - nohuhu's Ext.ux.data.proxy.PagingMemory
+    - https://github.com/nohuhu/Ext.ux.data.proxy.PagingMemory
 
 
 ## License ##
