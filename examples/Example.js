@@ -42,6 +42,7 @@ Ext.define("ExampleView", {
 							store.load();
 						}
 						if (store.getAllCount() === 0) {
+							alert("First load? Populating localStorage with models. Won't page until refresh.");
 							store.add([
 								{name: 'One'},
 								{name: 'Two'},
