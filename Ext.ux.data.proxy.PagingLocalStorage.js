@@ -25,10 +25,6 @@
  *   - https://github.com/nohuhu/Ext.ux.data.proxy.PagingMemory
  * 
  */
-
-/**
- * , allows to use paging grid with localStorage dataset
- */
 Ext.define('Ext.ux.data.proxy.PagingLocalStorage', {
     extend: 'Ext.data.proxy.LocalStorage',
     alias: 'proxy.localstoragepaging',
